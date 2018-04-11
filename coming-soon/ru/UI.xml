@@ -20,9 +20,9 @@
             <btn_forums>Перейти на форум</btn_forums>
             <btn_report>Сообщить об ошибке</btn_report>
             <btn_steam>Мастерская Steam</btn_steam>
-            <text>Welcome to SimAirport Early Access! We hope you're enjoying the game so far.  We  encourage you to visit the forums, be active &amp; participate in the community, and really take an active role in the development process alongside the developers.
+            <text>Добро пожаловать в SimAirport! Это предварительная версия, находящаяся в раннем доступе. Тем не менее, мы надеемся, что игра Вам понравится.  Мы призываем вас стать активным пользователей наших форумов, стать частью сообщества, и действительно активно участвовать в процессе разработки наряду с нашей командой.
         
-Thank you for your support and thank you for helping us make SimAirport into the best tycoon-style management game ever created!</text>
+Спасибо за Вашу поддержку и за то, что помогаете делать игру лучшим симулятором управления аэропортом из когда-либо созданных!</text>
         </EADialog>
         <mainmenu>
             <sharingbtn>Поделиться аэропортом</sharingbtn>
@@ -54,10 +54,10 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <size>
                     <title>Размер карты</title>
                     <tt0>
-                        <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
+                        <desc0>В режиме карьеры Вам досутпно начало игры на {0} карте ({1}x{2}). Вы можете увеличивать размеры территории для развития аэропорта, покупая соседние участки земли.</desc0>
                     </tt0>
                     <tt1>
-                        <desc0>When playing in Sandbox Mode, you may choose which size map you want to start with.  You can still purchase additional Land to expand later, too, but this determines your starting map size.  Note that property taxes are a bit higher on larger plots of land!</desc0>
+                        <desc0>Начиная игру в режиме песочницы, Вам предоставляется возможность выбрать размеры начального участка.  Эта опция определяет только размеры участка в начале игры, не лишая Вас возможности увеличения территории.  Имейте в виду, что с увеличением площади участка возрастает и размер налога на него!</desc0>
                     </tt1>
                 </size>
                 <difficulty>
@@ -69,7 +69,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <blank>
                     <title>Начать на пустой карте</title>
                     <tt>
-                        <desc>Starting from scratch will begin with an empty plot of land but requires more time to get your airport up &amp; running. If you're a new player, we recommend leaving this off to get started playing SimAirport right away with our built-in starter airport layout.</desc>
+                        <desc>Начало игры на пустом участке предоставляет Вам больше возможностей для строительства, но в этом случае потребуется больше времени от начала игры до приема первого рейса. Если Вы начинающий игрок, рекомендуем оставить эту опцию отключенной, чтобы ознакомиться с основами игры на примере предварительно построенного небольшого аэропорта.</desc>
                     </tt>
                 </blank>
             </new>
@@ -80,7 +80,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <as>Сохранить как...</as>
                 <step1>
                     <title>Сохранение...</title>
-                    <desc>Just a moment while we save your game...</desc>
+                    <desc>Подождите, идет сохранение...</desc>
                 </step1>
                 <step2>
                     <title>Сохранено!</title>
@@ -104,29 +104,29 @@ This will permanently delete the selected game from your computer. Are you SURE 
             </load>
         </game>
         <options>
-            <title>Options &amp; Settings</title>
+            <title>Настройки &amp; Опции</title>
             <graphics>
                 <title>Настройки графики</title>
-                <weather>Weather Visual Effects</weather>
-                <daynightcycle>Night/Day Cycle Visuals</daynightcycle>
-                <shadowsAO>Shadows and AO</shadowsAO>
+                <weather>Погодные эффекты</weather>
+                <daynightcycle>Смена для и ночи</daynightcycle>
+                <shadowsAO>Тени и AO</shadowsAO>
                 <fullscreen>Полноэкранный режим</fullscreen>
                 <resolution>Разрешение</resolution>
                 <quality>Качество</quality>
                 <scale>Размер интерфейса</scale>
                 <reschange0>Применить изменения</reschange0>
                 <reschange1>Применить текущие настройки?</reschange1>
-                <reschange2>Will Revert in {0} seconds...</reschange2>
+                <reschange2>Отмена через {0} секунд...</reschange2>
             </graphics>
             <camera>
-                <title>Camera (Zoom/Pan)</title>
-                <edgescroll>Edge Hover Scrolling</edgescroll>
-                <zoomcentering>Zoom Centering</zoomcentering>
-                <cameracenter>Camera Center</cameracenter>
-                <mouseposition>Mouse Position</mouseposition>
-                <mousepan>Middle Mouse Pan</mousepan>
+                <title>Камера (Зум/Перемещение)</title>
+                <edgescroll>Перемещение при приближении к границам</edgescroll>
+                <zoomcentering>Зум по центру</zoomcentering>
+                <cameracenter>Камера по центру</cameracenter>
+                <mouseposition>По положению мыши</mouseposition>
+                <mousepan>Перемещение зажатием ролика</mousepan>
                 <zoomspeed>Скорость зума</zoomspeed>
-                <panspeed>Скорость прокрутки</panspeed>
+                <panspeed>Скорость перемещения</panspeed>
             </camera>
             <autosave>
                 <title>Автосохранение</title>
@@ -138,51 +138,51 @@ This will permanently delete the selected game from your computer. Are you SURE 
             </sound>
             <gameplay>
                 <title>Игра</title>
-                <timeformat>Clock/Time Display</timeformat>
-                <timeformat0>{0}-Hour ({1})</timeformat0>
+                <timeformat>Формат времени</timeformat>
+                <timeformat0>{0}-час. ({1})</timeformat0>
                 <language>Язык</language>
-                <language2>For best results, please restart SimAirport after changing language.</language2>
-                <zoneoverlays>Zone Overlays</zoneoverlays>
-                <autofocusbuildmenus>Build Menus: Search Auto-Focus</autofocusbuildmenus>
-                <holiday>Holiday Visuals</holiday>
-                <reset>Reset ALL Window Positions</reset>
-                <resetbtn>Reset All Positions</resetbtn>
+                <language2>Советуем перезапустить SimAirport после смены языка.</language2>
+                <zoneoverlays>Подсветка зон</zoneoverlays>
+                <autofocusbuildmenus>Меню строительства: Автофокус на поиске</autofocusbuildmenus>
+                <holiday>Отображение праздников</holiday>
+                <reset>Сброс положений всех окон</reset>
+                <resetbtn>Сброс всего</resetbtn>
             </gameplay>
             <hotkeys>
-                <title>Hotkey Bindings</title>
-                <col0>Keyboard Key</col0>
-                <col1>Game Function</col1>
-                <reset0>Reset ALL</reset0>
-                <reset1>Reset to DEFAULTS</reset1>
+                <title>Назначение клавиш</title>
+                <col0>Клавиша</col0>
+                <col1>Функция</col1>
+                <reset0>Сброс ВСЕГО</reset0>
+                <reset1>По умолчанию</reset1>
             </hotkeys>
         </options>
         <mods>
-            <test>Load Test Airport</test>
+            <test>Открыть тестовый аэропорт</test>
             <steam>
-                <title>Upload &amp; Share on Steam Workshop</title>
-                <name>Name</name>
-                <description>Optional description...</description>
-                <ship>Save &amp; Publish</ship>
+                <title>Загрузка &amp; Добавление в мастерскую Steam</title>
+                <name>Название</name>
+                <description>Описание (опционально)...</description>
+                <ship>Сохранить &amp; Опубликовать</ship>
                 <success>Успешно!</success>
-                <fail>Failed!</fail>
-                <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
-                <e_connect>Not connected to Steam.</e_connect>
-                <e_validate>Item title cannot be empty.</e_validate>
-                <e_inprog>Another upload is already in progress.</e_inprog>
+                <fail>Ошибка!</fail>
+                <downloaded>Загружено</downloaded>
+                <downloading>Загрузка...</downloading>
+                <e_connect>Нет связи со Steam.</e_connect>
+                <e_validate>Название не может быть пустным.</e_validate>
+                <e_inprog>Сейчас уже производится другая загрузка.</e_inprog>
                 <e_unknown>Unexpected response in item: {0}</e_unknown>
                 <e_exception>Something went wrong... Please let the devs know!</e_exception>
-                <step0>Preparing...</step0>
-                <step1>Creating save...</step1>
-                <step2>Creating preview...</step2>
-                <step3>Uploading...</step3>
+                <step0>Подготовка...</step0>
+                <step1>Создание сохранения...</step1>
+                <step2>Создание превью...</step2>
+                <step3>Загрузка...</step3>
                 <step4>Preparing Config</step4>
                 <step5>Preparing Content</step5>
                 <step6>Uploading Content</step6>
                 <step7>Uploading Preview File</step7>
                 <step8>Committing Changes</step8>
-                <step9>Done</step9>
-                <step10>Validating Mod...</step10>
+                <step9>Готово</step9>
+                <step10>Проверка...</step10>
                 <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
                 <desc1>Your item has been updated.</desc1>
                 <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
@@ -220,11 +220,11 @@ This will permanently delete the selected game from your computer. Are you SURE 
             </airlines>
             <aircraft>
                 <title>Custom Aircraft Mods</title>
-                <create>Create Aircraft</create>
+                <create>Создать самолет</create>
                 <validart>Valid Default Art</validart>
                 <invalidart>Default Art Missing</invalidart>
-                <missing>Missing {0}</missing>
-                <found>Found {0}</found>
+                <missing>Не найдено {0}</missing>
+                <found>Найдено {0}</found>
                 <k_CustomArt>Custom Art</k_CustomArt>
                 <k_DisplayName>Display Name</k_DisplayName>
                 <k_ShortName>Short Name</k_ShortName>
